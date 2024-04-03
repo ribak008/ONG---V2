@@ -1,16 +1,40 @@
 .contenedor{
     background-color: rgb(51, 51, 51);
 }
+
+.click:hover{
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    text-indent: 20%;
+    
+}
+
+.click{
+    transition: all .3s ease-in-out;
+    text-indent: 0%;
+}
+
+
 .barra-lateral{
+
     background-color: rgb(51, 51, 51);
     color: white;
-    height: 30%;
+    width: 30%;
+    
 }
 
 .barra-lateral ul li:hover{
     cursor: pointer;
+    color: white;
+    transition: all .3s ease-in;
+    text-indent: 10%;
+}
+
+.barra-lateral ul li{
+    cursor: pointer;
     color: black;
-    font-size: medium;
+    transition: all .3s ease-in;
+    text-indent: 0%;
 }
 
 .barra-lateral ul{
@@ -18,8 +42,11 @@
 }
 
 .primer-contenido{
+    
+    height: 25%;
     background-color: rgb(0, 211, 211);
     color: white;
+    transition: all .5s ease-in-out;
     
 }
 
@@ -29,8 +56,11 @@
 }
 
 .segundo-contenido{
+    
+    height: 25%;
     background-color: rgb(209, 209, 0);
     color: white;
+    transition: all .5s ease-in-out;
     
 }
 
@@ -40,16 +70,20 @@
 }
 
 .tercer-contenido{
+    height: 25%;
     background-color: orange;
     color: white;
+    transition: all .5s ease-in-out;
 }
 .tercer-contenido:hover{
     transition: all .5s ease-in-out;
     filter: saturate(50%);
 }
 .cuarto-contenido{
+    height: 25%;
     background-color: red;
     color: white;
+    transition: all .5s ease-in-out;
 }
 
 .cuarto-contenido:hover{
@@ -67,11 +101,23 @@
 }
 
 
-
+.negrita{
+    font-weight: bold;
+}
 
 
 .mascota:hover{
     cursor: pointer;
     transition: all .2s ease-in-out;
     color: black;
+}
+
+img:hover{
+    transform: scale(110%);
+    transition: all .2s ease-in-out;
+}
+
+img{
+    transition: all .2s ease-in-out;
+    border-radius: 1rem;
 }
